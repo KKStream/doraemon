@@ -2,13 +2,16 @@
   "name": "example",
   "description": "🧪 Try something here.",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.4",
     "parcel-bundler": "^1.12.5"
   }
 }
