@@ -1,3 +1,6 @@
+# dev
+.cache
+
 # dependencies
 node_modules
 
