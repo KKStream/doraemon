@@ -17,6 +17,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
+    "test:cov": "yarn test --coverage",
     "lint": "tsdx lint",
     "clean": "run-p clean:*",
     "clean:build": "rimraf dist",
