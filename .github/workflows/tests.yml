@@ -38,5 +38,5 @@ jobs:
       - name: Coveralls GitHub Action
         uses: coverallsapp/github-action@master
         with:
-          path-to-lcov: ./pacakges/**/*/coverage/lcov.info
+          path-to-lcov: ./pacakges/**/coverage/lcov.info
           github-token: ${{ secrets.GITHUB_TOKEN }}
