@@ -18,6 +18,9 @@
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
+    "clean": "run-p clean:*",
+    "clean:build": "rimraf dist",
+    "clean:cov": "rimraf coverage",
     "prepare": "tsdx build"
   },
   "dependencies": {
