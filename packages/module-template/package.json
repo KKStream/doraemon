@@ -22,7 +22,7 @@
     "clean": "run-p clean:*",
     "clean:build": "rimraf dist",
     "clean:cov": "rimraf coverage",
-    "prepare": "tsdx build"
+    "prepublish": "tsdx build"
   },
   "dependencies": {
     "react": "^17.0.2",
