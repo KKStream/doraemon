@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "lerna run test",
+    "test": "lerna run test --",
     "lint": "lerna run lint",
     "prepublish": "lerna run prepublish",
     "release": "changeset publish",
