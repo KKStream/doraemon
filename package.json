@@ -7,8 +7,8 @@
   "scripts": {
     "test": "lerna run test --",
     "lint": "lerna run lint",
+    "postinstall": "lerna bootstrap",
     "build": "lerna run build",
-    "prepublish": "lerna run prepublish",
     "release": "changeset publish",
     "prepare": "husky install"
   },
