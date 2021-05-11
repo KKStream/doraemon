@@ -34,9 +34,3 @@ jobs:
         run: yarn lint
       - name: Run test
         run: yarn test --coverage
-
-      - name: Coveralls GitHub Action
-        uses: coverallsapp/github-action@master
-        with:
-          path-to-lcov: ./pacakges/**/coverage/lcov.info
-          github-token: ${{ secrets.GITHUB_TOKEN }}

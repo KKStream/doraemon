@@ -1,7 +1,6 @@
 # Module Template
 
 [![npm version](https://img.shields.io/npm/v/@kks-web/module-template?style=flat-square)](https://www.npmjs.com/package/@kks-web/module-template)
-[![coverage status](https://img.shields.io/coveralls/github/KKStream/@kks-web/module-template?style=flat-square)](https://coveralls.io/github/KKStream/@kks-web/module-template?branch=master)
 [![npm downloads](https://img.shields.io/npm/dm/@kks-web/module-template?style=flat-square)](https://www.npmtrends.com/@kks-web/module-template)
 [![npm downloads](https://img.shields.io/npm/dt/@kks-web/module-template?style=flat-square)](https://www.npmtrends.com/@kks-web/module-template)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/@kks-web/module-template?style=flat-square)](https://bundlephobia.com/result?p=@kks-web/module-template)
