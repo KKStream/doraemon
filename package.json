@@ -8,7 +8,6 @@
     "test": "lerna run test --",
     "lint": "lerna run lint",
     "build": "lerna run build",
-    "size": "lerna run size",
     "release": "changeset publish",
     "prepare": "husky install"
   },
