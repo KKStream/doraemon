@@ -34,3 +34,5 @@ jobs:
         run: yarn lint
       - name: Run test
         run: yarn test --coverage
+      - name: Run size limit
+        run: yarn size
