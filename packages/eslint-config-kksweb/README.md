@@ -7,7 +7,7 @@ ESlint configuration for my personal [React](https://reactjs.org) projects, whic
 [![npm downloads](https://img.shields.io/npm/dt/@kks-web/eslint-config-kksweb?style=flat-square)](https://www.npmtrends.com/@kks-web/eslint-config-kksweb)
 [![dependencies status](https://img.shields.io/david/doraemon/@kks-web/eslint-config-kksweb?style=flat-square)](https://david-dm.org/doraemon/@kks-web/eslint-config-kksweb)
 [![devDependencies status](https://img.shields.io/david/dev/doraemon/@kks-web/eslint-config-kksweb?style=flat-square)](https://david-dm.org/doraemon/@kks-web/eslint-config-kksweb?type=dev)
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/KKStream/doraemon/packages/eslint-config-kksweb/CONTRIBUTING.md)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/KKStream/doraemon/blob/master/packages/eslint-config-kksweb/CONTRIBUTING.md)
 
 ## Installation
 
