@@ -8,12 +8,12 @@
     "test": "lerna run test --",
     "lint": "lerna run lint",
     "build": "lerna run build",
-    "format": "prettier -w -u '**/*'",
+    "format": "prettier -w -u .",
     "release": "changeset publish",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "**/*": "yarn format"
+    "**/*": "prettier -w -u"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.0",
