@@ -1,8 +1,14 @@
-# dev
-.cache
-
 # dependencies
 node_modules
+
+# testing
+coverage
+
+# development
+.cache
+
+# production
+dist
 
 # misc
 .DS_Store
