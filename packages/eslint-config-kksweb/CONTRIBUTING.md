@@ -10,8 +10,9 @@ Please note we have a [code of conduct](https://github.com/KKStream/doraemon/blo
 
 1. Fork the repository and create your branch from `master`.
 2. Run `yarn` to install dependencies.
-3. Run `yarn lint` to lint your code.
-4. Create a branch for your PR.
+3. Run `yarn validate` to validate you've got it working.
+4. Run `yarn lint` to lint your code.
+5. Create a branch for your PR.
 
 > Tip: Keep your `master` branch pointing at the original repository and make
 > pull requests from branches on your fork. To do this, run:
