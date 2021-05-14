@@ -1,0 +1,45 @@
+{
+  "name": "@kks-web/eslint-config-kksweb",
+  "version": "0.0.0",
+  "description": "The ESLint configuration of KKStream web.",
+  "license": "MIT",
+  "homepage": "https://github.com/KKStream/doraemon",
+  "repository": "https://github.com/KKStream/doraemon/packages/eslint-config-kksweb",
+  "author": "KKSWeb <web@kkstream.com.tw>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "validate": "eslint tests/*",
+    "lint": "run-s lint:code lint:format",
+    "lint:code": "eslint --fix index.js",
+    "lint:format": "prettier -w . -u --loglevel silent"
+  },
+  "dependencies": {
+    "@emotion/eslint-plugin": "^11.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-compat": "^3.9.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jest-dom": "^3.9.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4",
+    "eslint-plugin-testing-library": "^4.4.0",
+    "read-pkg-up": "^7.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "eslint": "^7.2.0",
+    "typescript": "^4.2.4"
+  }
+}
