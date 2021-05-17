@@ -4,7 +4,7 @@
 
 ## Packages
 
-This repository is a monorepo that we manage using [Lerna](https://lerna.js.org). That means that we actually publish several packages to npm from the same codebase, including:
+This repository is a monorepo that we manage using [Lerna](https://lerna.js.org), [TSDX](https://tsdx.io/), and [Changesets](https://github.com/atlassian/changesets). That means that we actually publish [several packages](packages) to npm from the same codebase, including:
 
 | Name                                                  | Version                                                                                                                                                     | Description                                        |
 | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
