@@ -76,3 +76,7 @@ This configuration contains the following cool packages.
 | [eslint-plugin-jest-dom](https://github.com/testing-library/eslint-plugin-jest-dom)                           | ESLint rules for use with [jest-dom](https://testing-library.com/docs/ecosystem-jest-dom).                          | Dynamic enabled |
 | [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)             | ESLint plugin for [Testing Library](https://testing-library.com/docs/react-testing-library/intro).                  | Dynamic enabled |
 | [@emotion/eslint-plugin](https://github.com/emotion-js/emotion/blob/master/packages/eslint-plugin/README.md)  | ESLint rules for [emotion](https://emotion.sh).                                                                     | Dynamic enabled |
+
+## How To Contribute?
+
+Please follow our [contribute guidance](https://github.com/KKStream/doraemon/blob/master/packages/eslint-config-kksweb/CONTRIBUTING.md) to contribute this package.
