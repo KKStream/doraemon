@@ -2,7 +2,9 @@
 
 🎒 The treasure box of KKStream web.
 
-## Modules Found Here
+## Packages
+
+This repository is a monorepo that we manage using [Lerna](https://lerna.js.org). That means that we actually publish several packages to npm from the same codebase, including:
 
 | Name                                                  | Version                                                                                                                                                     | Description                                        |
 | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
