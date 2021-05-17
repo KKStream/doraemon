@@ -1,6 +1,6 @@
 # eslint-config-kksweb
 
-ESlint configuration for my personal [React](https://reactjs.org) projects, which integrates [TypeScript](https://www.typescriptlang.org), [Compat](https://github.com/amilajack/eslint-plugin-compat), and [more](#whats-inside).
+ESlint configuration for the [React](https://reactjs.org) projects of KKStream web, which integrates [TypeScript](https://www.typescriptlang.org), [Compat](https://github.com/amilajack/eslint-plugin-compat), and [more](#whats-inside).
 
 [![npm version](https://img.shields.io/npm/v/@kks-web/eslint-config-kksweb?style=flat-square)](https://www.npmjs.com/package/@kks-web/eslint-config-kksweb)
 [![npm downloads](https://img.shields.io/npm/dm/@kks-web/eslint-config-kksweb?style=flat-square)](https://www.npmtrends.com/@kks-web/eslint-config-kksweb)
