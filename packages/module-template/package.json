@@ -1,7 +1,7 @@
 {
   "name": "@kks-web/module-template",
   "version": "0.0.1",
-  "description": "🚀 A module start template.",
+  "description": "🚀 Your module start template.",
   "license": "MIT",
   "homepage": "https://github.com/KKStream/doraemon",
   "repository": "https://github.com/KKStream/doraemon/packages/module-template",
@@ -20,7 +20,7 @@
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
     "test:cov": "yarn test --coverage",
-    "lint": "tsdx lint",
+    "lint": "tsdx lint --fix",
     "size": "yarn build && size-limit",
     "size:analyze": "yarn size --why",
     "clean": "run-p clean:*",
@@ -44,6 +44,10 @@
     "tslib": "^2.2.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/react-hooks": "^5.1.2",
+    "@testing-library/user-event": "^13.1.9",
     "@types/react": "^17.0.5",
     "@types/react-dom": "^17.0.3",
     "husky": "^6.0.0"
