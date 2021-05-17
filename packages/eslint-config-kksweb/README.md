@@ -39,7 +39,7 @@ Add the extends to your `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: "kksweb",
+  extends: ["@kks-web/eslint-config-kksweb"],
   rules: {
     // your overrides
   },
