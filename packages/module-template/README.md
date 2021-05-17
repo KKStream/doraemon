@@ -6,4 +6,4 @@
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/@kks-web/module-template?style=flat-square)](https://bundlephobia.com/result?p=@kks-web/module-template)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/KKStream/doraemon/CONTRIBUTING.md)
 
-🚀 A module start template.
+🚀 Your module start template.
