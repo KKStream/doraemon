@@ -1,0 +1,59 @@
+{
+  "name": "@kks-web/virtual-cast",
+  "version": "0.0.1",
+  "description": "Google Cast app development, no real device needed",
+  "author": "KKSWeb <web@kkstream.com.tw> (https://github.com/KKStream/doraemon)",
+  "main": "dist/virtual-cast.js",
+  "typings": "dist/virtual-cast.d.ts",
+  "module": "dist/virtual-cast.module.js",
+  "bin": {
+    "virtual-cast": "./bin/message-server"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "test:cov": "yarn test --coverage",
+    "lint": "tsdx lint",
+    "size": "size-limit",
+    "size:analyze": "size-limit --why",
+    "clean": "run-p clean:*",
+    "clean:build": "rimraf dist",
+    "clean:cov": "rimraf coverage",
+    "prepublish": "npm run build"
+  },
+  "size-limit": [
+    {
+      "path": "dist/virtual-cast.js",
+      "limit": "10 KB"
+    }
+  ],
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tslib": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.3",
+    "husky": "^6.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "trailingComma": "none"
+  },
+  "eslintConfig": {
+    "extends": [],
+    "rules": {}
+  }
+}
