@@ -21,7 +21,7 @@ Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in
 
 You can test new features or debug an issue as follows:
 
-1. For a new package, start by cloning the (module-template)[packages/module-template].
+1. For a new package, start by cloning the [module-template](packages/module-template).
 2. Start it by checking out the [document](packages/module-template/README.md).
 3. You can try something through the [example](packages/module-template/example/README.md).
 
