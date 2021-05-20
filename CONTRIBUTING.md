@@ -23,7 +23,7 @@ You can test new features or debug an issue as follows:
 
 1. For a new package, start by cloning the (module-template)[packages/module-template].
 2. Start it by checking out the [document](packages/module-template/README.md).
-3. You can try something through the [example](packages/module-template/example/README.md).
+3. You can try something through the [example](packages/module-template/example/README.md) or wherever you want by [yarn link](https://classic.yarnpkg.com/en/docs/cli/link).
 
 ## Useful Commands
 
