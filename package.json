@@ -13,12 +13,15 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": "tsdx lint",
+    "**/*.{js,jsx,ts,tsx}": "tsdx lint --fix",
     "**/*": "prettier -w -u"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.0",
     "@changesets/cli": "^2.16.0",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@commitlint/config-lerna-scopes": "^12.1.4",
     "@size-limit/preset-small-lib": "^4.11.0",
     "husky": "^6.0.0",
     "lerna": "^4.0.0",
