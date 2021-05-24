@@ -1,5 +1,11 @@
 # @kks-web/eslint-config-kksweb
 
+## 0.1.1
+
+### Patch Changes
+
+- [#14](https://github.com/KKStream/doraemon/pull/14) [`ad46786`](https://github.com/KKStream/doraemon/commit/ad4678620acbbd891ef0484bddcfa8cc61409351) Thanks [@wellyshen](https://github.com/wellyshen)! - Upgrade: typescript-eslint ^4.23.0 → ^4.24.0 & eslint-plugin-testing-library ^4.4.0 → ^4.6.0
+
 ## 0.1.0
 
 ### Minor Changes
