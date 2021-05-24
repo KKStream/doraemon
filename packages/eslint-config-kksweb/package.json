@@ -1,6 +1,6 @@
 {
   "name": "@kks-web/eslint-config-kksweb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The ESLint configuration of KKStream web.",
   "license": "MIT",
   "homepage": "https://github.com/KKStream/doraemon",
