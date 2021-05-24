@@ -29,7 +29,7 @@ Have you done all of these things?
 <!-- add "N/A" to the end of each line that's irrelevant to your changes -->
 <!-- to check an item, place an "x" in the box like so: "- [x] Documentation" -->
 
-- [ ] Documentation added/updated
+- [ ] Documentation added/updated (include this [README](https://github.com/KKStream/doraemon/blob/master/README.md))
 - [ ] Tests
 - [ ] TypeScript definitions added/updated
 - [ ] [Add a changeset](https://github.com/atlassian/changesets/blob/master/docs/adding-a-changeset.md)
