@@ -13,6 +13,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
+    "packages/**/*.{js,jsx,ts,tsx}": "tsdx lint --fix",
     "**/*": "prettier -w -u"
   },
   "devDependencies": {
