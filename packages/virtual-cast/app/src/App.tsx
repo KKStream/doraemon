@@ -27,22 +27,38 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const tryParse = text => {
+const tryParse = queryString => {
   try {
-    return JSON.parse(text);
+    const params = new URLSearchParams(queryString);
+    return {
+      contentId: decodeURIComponent(params.get("contentId") || ""),
+      contentUrl: decodeURIComponent(params.get("contentUrl") || ""),
+      customData: decodeURIComponent(params.get("customData") || "")
+    };
   } catch (e) {}
+  return {};
 };
+
+const getQuery = values =>
+  "?" +
+  [
+    values.contentId && `contentId=${encodeURIComponent(values.contentId)}`,
+    values.contentUrl && `contentUrl=${encodeURIComponent(values.contentUrl)}`,
+    values.customData && `customData=${encodeURIComponent(values.customData)}`
+  ]
+    .filter(Boolean)
+    .join("&");
 
 const Controls = ({ socket }) => {
   const { form } = useForm({
-    defaultValues: tryParse(localStorage["options"]),
+    defaultValues: tryParse(window.location.search),
     onSubmit: values => {
       const options = {
         ...values,
         customData: JSON.parse(values.customData)
       };
       loadMedia(socket, options);
-      localStorage["options"] = JSON.stringify(values);
+      window.history.pushState({}, "", getQuery(values));
     }
   });
   const classes = useStyles();
