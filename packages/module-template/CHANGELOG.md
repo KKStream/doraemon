@@ -1,5 +1,11 @@
 # @kks-web/module-template
 
+## 0.0.3
+
+### Patch Changes
+
+- [#20](https://github.com/KKStream/doraemon/pull/20) [`dceac7a`](https://github.com/KKStream/doraemon/commit/dceac7acbfcf000abd5eb16c5d4218c2785227b9) Thanks [@wellyshen](https://github.com/wellyshen)! - fix(module-template): fix something...
+
 ## 0.0.2
 
 ### Patch Changes
