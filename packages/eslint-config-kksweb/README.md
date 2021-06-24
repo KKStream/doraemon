@@ -5,8 +5,6 @@ ESlint configuration for the [React](https://reactjs.org) projects of KKStream w
 [![npm version](https://img.shields.io/npm/v/@kks-web/eslint-config-kksweb?style=flat-square)](https://www.npmjs.com/package/@kks-web/eslint-config-kksweb)
 [![npm downloads](https://img.shields.io/npm/dm/@kks-web/eslint-config-kksweb?style=flat-square)](https://www.npmtrends.com/@kks-web/eslint-config-kksweb)
 [![npm downloads](https://img.shields.io/npm/dt/@kks-web/eslint-config-kksweb?style=flat-square)](https://www.npmtrends.com/@kks-web/eslint-config-kksweb)
-[![dependencies status](https://img.shields.io/david/doraemon/@kks-web/eslint-config-kksweb?style=flat-square)](https://david-dm.org/doraemon/@kks-web/eslint-config-kksweb)
-[![devDependencies status](https://img.shields.io/david/dev/doraemon/@kks-web/eslint-config-kksweb?style=flat-square)](https://david-dm.org/doraemon/@kks-web/eslint-config-kksweb?type=dev)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 
 ## Installation
