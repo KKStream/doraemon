@@ -1,5 +1,15 @@
 # @kks-web/eslint-config-kksweb
 
+## 0.2.0
+
+### Minor Changes
+
+- [#26](https://github.com/KKStream/doraemon/pull/26) [`99b87d5`](https://github.com/KKStream/doraemon/commit/99b87d5a545e3e26e952a4e49523df0115e22770) Thanks [@wellyshen](https://github.com/wellyshen)! - feat(eslint-config-kksweb): use eslint-plugin-promise
+
+### Patch Changes
+
+- [#24](https://github.com/KKStream/doraemon/pull/24) [`9848c19`](https://github.com/KKStream/doraemon/commit/9848c19afe2c47bf606449757cf7dc64653cfdd0) Thanks [@wellyshen](https://github.com/wellyshen)! - chore(eslint-config-kksweb): upgrade deps
+
 ## 0.1.1
 
 ### Patch Changes

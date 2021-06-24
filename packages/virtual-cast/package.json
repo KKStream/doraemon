@@ -1,6 +1,6 @@
 {
   "name": "@kks-web/virtual-cast",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Google Cast app development, no real device needed",
   "author": "KKSWeb <web@kkstream.com.tw> (https://github.com/KKStream/doraemon)",
   "main": "dist/virtual-cast.js",
